@@ -22,7 +22,7 @@ module RSynology
       def request(method, params, version = maxVersion)
         params = {
           method: method,
-          version: maxVersion,
+          version: version,
           api: api_name
         }.merge(params)
         client.request(endpoint, params)
