@@ -6,8 +6,8 @@ require 'rsynology/version'
 Gem::Specification.new do |gem|
   gem.name          = "rsynology"
   gem.version       = RSynology::VERSION
-  gem.authors       = ["Jack Chen (chendo)"]
-  gem.email         = ["gems+rsynology@chen.do"]
+  gem.authors       = ["Jack Chen (chendo)","Kevin Southworth (ksouthworth)"]
+  gem.email         = ["gems+rsynology@chen.do","ksouthworth@gmail.com"]
   gem.description   = %q{A gem to access the API exposed by Synology DSM apps}
   gem.summary       = %q{A gem to access the API exposed by Synology DSM apps}
   gem.homepage      = ""
