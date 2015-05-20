@@ -1,5 +1,5 @@
 require 'rsynology/client/api'
-require 'hashie/trash'
+require 'hashie'
 
 module RSynology
   class Client
