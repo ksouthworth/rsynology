@@ -1,4 +1,4 @@
-require 'rsynology'
+require 'rsynology/api'
 
 module RSynology
   class Client
