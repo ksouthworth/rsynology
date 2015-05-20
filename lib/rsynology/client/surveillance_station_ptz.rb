@@ -2,7 +2,7 @@ require 'hashie'
 
 module RSynology
   class Client
-    class SurveillanceStationPTZ < API
+    class SurveillanceStationPtz < API
 
       DIRECTION = {
         right: "dir_0",
