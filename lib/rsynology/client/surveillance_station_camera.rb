@@ -1,3 +1,4 @@
+require 'rsynology'
 require 'hashie'
 
 module RSynology
